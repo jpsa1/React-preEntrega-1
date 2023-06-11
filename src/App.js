@@ -1,5 +1,5 @@
-import CartWidget from "./components/CartWidget/CartWidget";
 import LabelBottomNavigation, { Category } from "./components/Category/Category";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ButtonAppBar from "./components/NavBar/NavBar";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <ButtonAppBar />
       <LabelBottomNavigation /> 
+      <ItemListContainer saludo='Hola Mundo!'/>
     </div>
   );
 }
